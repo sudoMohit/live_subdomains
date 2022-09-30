@@ -40,10 +40,4 @@ def valid(file,domain_name):
             print(f"{num}: https://{j}{domain_name} : {code}")
             num += 1
 
-valid("samsung.txt",".coca-colacompany.com")
-# if __name__ == '__main__':
-#     parser = argparse.ArgumentParser()
-#     parser.add_argument('--file','-f',type=str, help='takes file that contains raw subdomains')
-#     parser.add_argument('--domain','-d', type=str, help='takes a domain name e.g ".example.com"')
-#     args = parser.parse_args()
-#     sys.stdout.write(valid(args.file, args.domain))
+valid("a_text_file_of_subdomains.txt",".example.com")
